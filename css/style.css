@@ -1,0 +1,86 @@
+.container{
+  max-width:800px;
+  margin:0 auto;
+}
+#header{
+  text-align:center;
+}
+#header > h1{
+  color:#27ae60;
+}
+#header > h1::first-letter{
+  font-size:85px;
+}
+#header>h1>span{
+  background-color:red;
+  border-radius:10px 0;
+  color:white;
+}
+#search-box{
+  border-radius:10px 0px;
+  border-color:red;
+  
+  display:block;
+  margin:0 auto;
+  text-align:center;
+  font-size:20px;
+  
+  transition:0.3s
+}
+#search-box:focus{
+  transform:scaleX(1.5);
+  transition:0.3s;
+  outline:none;
+}
+#random-page-button{
+  background-color:red;
+  display:block;
+  
+  margin:5px auto;
+  border-radius:0 10px;
+}
+#random-page-button > a{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+}
+#random-page-button>a:after{
+  text-decoration:none;
+  outline:none;
+}
+
+.query{
+  background-color:rgba(0,0,0,0.5);
+  border-radius:35px 0px;
+  text-decoration:none;
+  
+  margin:10px 0px;
+  border-left:5px solid transparent;
+  border-right:5px solid transparent;
+}
+.query:hover{
+  background-color:rgba(0,0,0,0.8);
+  border-left:5px solid red;
+  border-right:5px solid red;
+}
+.query:after > a{
+  text-decoration:none;
+}
+.query > a{
+  color:white;
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  padding:10px 0px;
+}
+.query > a > p:first-child{
+  font-size:1.3em;
+  text-decoration:underline;
+}
+#queries{
+  background-image:url("https://www.digital-science.com/wp-content/uploads/2015/02/wikipedia-logo.png");
+  background-color:#27ae60;
+  border-radius:35px 0px;
+}
+
+
